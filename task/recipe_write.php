@@ -1,5 +1,4 @@
 <?php
-
 // 書き込むファイル名を指定
 $filename = 'recipe-data.txt';
 
@@ -11,5 +10,4 @@ fwrite($handle, "オムライス");
 
 // ファイルの操作を終了する
 fclose($handle);
-
 ?>
